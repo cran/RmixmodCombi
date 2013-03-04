@@ -1,0 +1,20 @@
+exportPattern("^[[:alpha:]]+")
+
+export(	
+	"barplotMixCluster",
+	"combMat",
+	"histMixCluster",
+	"mixmodCombi",
+	"mixmodMap_M2V",
+	"mixmodMap_V2M",
+	"mixmodMap"
+		)
+		
+exportClasses(
+    "MixmodCombi",
+     "MixmodCombiSol" 
+)
+
+import("Rmixmod")
+import("Rcpp")
+importFrom(methods,show)
